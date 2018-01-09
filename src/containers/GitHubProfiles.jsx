@@ -13,7 +13,7 @@ class GitHubProfiles extends React.Component {
   }
 
   componentDidMount(){
-    const oauth = "e47c5a1f1fd83eb8af0889a83adca667a633db80";
+    const oauth = "b04ee7409f42c95725d16a2a69bc4be639772b01";
     for (let user of this.state.usernames){
       let url = `https://api.github.com/users/${user}?access_token=${oauth}`;
       const xhr = new XMLHttpRequest();

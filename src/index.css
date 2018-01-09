@@ -19,3 +19,8 @@ body {
   border-radius: 50%;
   width: 100px;
 }
+
+.user-name {
+  text-align: center;
+  font-weight: bold;
+}
